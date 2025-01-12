@@ -171,6 +171,14 @@ form {
 
 .btn:hover {
     /* 📍 Стили для кнопки при наведении курсора */
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background-color: #7594dd;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
 }
 
 .line {
