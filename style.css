@@ -94,6 +94,7 @@ select {
 select:hover,
 .text-field:hover {
     /* 📍 Стили для выпадающего списка и текстового поля при наведении курсора */
+    border-color: #2965f1;
 }
 
 
@@ -132,16 +133,21 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-  
-  justify-content: space-between;
+    flex-direction: column-reverse;
+
+
+    
+    
    
 }
 
 .skills {
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
-    display:flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 20px;
+   
+   
 }
 
 .books-list {
@@ -184,14 +190,9 @@ form {
 
 .btn:hover {
     /* 📍 Стили для кнопки при наведении курсора */
-    border: none;
-    border-radius: 5px;
-    width: 125px;
-    height: 36px;
-    background-color: #7594dd;
-    font-weight: 700;
-    font-size: 14px;
-    color: #fff;
+    background-color: rgba(41, 101, 241, 0.9);
+    cursor: pointer;
+
 }
 
 .line {
@@ -226,8 +227,6 @@ footer {
 
 .footer-link:hover {
     /* 📍 Стили для ссылки при наведении курсора */
-    font-weight: 400;
-    font-size: 14px;
-    color: #2965f1;
+    
     text-decoration: underline;
 }
